@@ -1,32 +1,29 @@
-Categorization and Cross-edition Matching and Linking for Nordisk
+Classification and Cross-edition Matching and Linking for Nordisk
 Familjebok
 ---
 Authors: Emil Jönsson and Markus Möller
 
-The Nordisk Familjebok is a Swedish encyclopedia written by subject experts between 1876
+Nordisk Familjebok is a Swedish encyclopedia written by subject experts between 1876
 and 1995. It spans four editions and as one of
-the most influential encyclopedias in Sweden, it
-offer a valuable lens through which to see how
-swedish perspectives have shifted over time.
-This paper analyzes entries from the second and
-third editions using a digitized version from
-Projekt Runeberg. We first extract headwords
+the most influential encyclopedias in Sweden,
+it offers a valuable lens through which to see
+how Swedish perspective and knowledge have
+shifted over time.
+This paper analyzes entities from the second
+and third editions using a digitized version from
+Project Runeberg. We first extract headwords
 from each edition by using machine learning
 and sequence annotation. Each headword is
-then classified using a BERT model into one of
-three categories location, person and other.
-This paper focuses on entries classified as per-
-sons, by matching persons across the two edi-
-tions we can see whether the encyclopedia fo-
-cuses more on people over time. Further by
-linking these entries to Wikidata, we can obtain
-additional information about our persons, such
-as gender and occupation. This enables further
-possibilities of examination of how represen-
-tations of people changed in Sweden across
-time. The entity matching and linking were
-done by using Sentence-BERT to compare the
-descriptions with each other.
-Our results indicate that the proportion of en-
-tries devoted to individuals remained relatively
-stable, as did the gender distribution.
+then classified, using the BERT architecture,
+into one of the following three categories: other,
+location and person.
+This paper focuses on entities classified as persons, by matching persons across the two editions we can see whether the encyclopedia focuses more on people over time. Further, by
+linking these entities to Wikidata, we can obtain
+additional information about the persons, such
+as gender and birth year. This enables further
+examination of how representations of people
+in Sweden changed over time. Entity matching and linking were realized using SentenceBERT to compare entity descriptions to each
+other.
+Our results indicate that the proportion of entities devoted to individuals increased from the
+second to the third edition. The gender distribution remained similar, with a slight increase
+in entities describing men in the third edition.
