@@ -3,8 +3,7 @@ Familjebok
 ---
 Authors: Emil Jönsson and Markus Möller
 
-The Nordisk Familjebok is a Swedish encyclo-
-pedia written by subject experts between 1876
+The Nordisk Familjebok is a Swedish encyclopedia written by subject experts between 1876
 and 1995. It spans four editions and as one of
 the most influential encyclopedias in Sweden, it
 offer a valuable lens through which to see how
